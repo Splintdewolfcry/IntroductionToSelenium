@@ -18,3 +18,7 @@ with webdriver.Firefox() as driver:
         href = title.get_attribute('href')
         if href is not None:
             print(href)
+
+# Understanding HTML context could be better and my lack of python proficency
+# is starting to show itself, need to get better in python, doing quite good on
+# both ends so far(udemy and selenium)
