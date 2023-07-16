@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scrapingmitudemy"
+version = "0.1.0"
+description = "Getting Started With Scraping"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.10.0"
+requests = "^2.31.0"
+chromedriver = "^2.24.1"
+pip = "^23.2"
+wget = "^3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
