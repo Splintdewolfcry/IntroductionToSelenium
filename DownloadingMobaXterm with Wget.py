@@ -14,7 +14,7 @@ with webdriver.Firefox() as driver:
     driver.get("https://mobaxterm.mobatek.net/download-home-edition.html")
     wait = WebDriverWait(driver, 10)
     downbutton = driver.find_element(By.CLASS_NAME, "btn_vert")
-    # print(downbutton)
+    print(type(downbutton))
     download_link = downbutton.get_attribute('href')
     file_download = wget.download(f'{download_link}')
 

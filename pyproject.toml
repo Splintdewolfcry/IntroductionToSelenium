@@ -12,6 +12,7 @@ requests = "^2.31.0"
 chromedriver = "^2.24.1"
 pip = "^23.2"
 wget = "^3.2"
+selenium-wire = "^5.1.0"
 
 
 [build-system]
