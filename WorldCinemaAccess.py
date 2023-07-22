@@ -33,7 +33,7 @@ os.environ['PATH'] = r"C:/SeleniumDrivers"
 with webdriver.Firefox() as driver:    
     driver.get("https://worldscinema.org/")
     wait = WebDriverWait(driver, 15)
-    contents = driver.find_element(By.CLASS_NAME, 'container-wrapper').find_elements(By.CSS_SELECTOR, "h2[class='post-title']").find_elements()
+    contents = driver.find_element(By.CLASS_NAME, 'container-wrapper').find_elements(By.CSS_SELECTOR, "h2[class='post-title']")
     
     # print(contents.text) # For when you are looking for `a` element
     
